@@ -3,23 +3,39 @@
 body {
     background-color: lightgray;
     font-family: 'Montserrat Alternates';
+    width: 98.7%;
 }
 
 header div {
     background-color: paleturquoise;
 }
+header div#cabecera {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 a .logo {
     width: 60%;
 }
 
-div {
+ul,
+ol {
+    list-style: none;
+}
+
+main div {
     background-color: white;
 
 }
+footer {
+    background-color: white;
 
-h1,h2,h3{
+}
+h1,
+h2,
+h3 {
     color: #50B1DB;
-    
+
 }
 
 
@@ -27,20 +43,61 @@ input {
     background-color: #1993BF;
     color: white;
 }
-h1{
+
+h1 {
     font-weight: bold;
 }
 
 h1::first-letter {
     border-bottom: 2px solid #257394;
 }
+
 h2::first-letter {
     border-bottom: 2px solid #257394;
 }
+
 h3:first-letter {
     border-bottom: 2px solid #257394;
 }
 
-.activo{
+.activo {
     border: 2px solid #1993BF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#menu_gral li ul {
+    position: absolute;
+    display: none;
+}
+
+#menu_gral li#cat ul li {
+    line-height: 230%;
+    border-bottom: 1px solid #1993BF;
+}
+
+
+#menu_gral li#cat:hover ul,
+#menu_gral li#cat:focus ul {
+
+    display: block;
+    background-color: paleturquoise;
+    z-index: 5;
+    margin-left: 4.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+#menu_gral li#inicio:hover ul,
+#menu_gral li#inicio:focus ul {
+    display: block;
+    background-color: paleturquoise;
+    z-index: 5;
+    margin-left: 5.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+#menu_gral li#inicio ul li{
+    line-height: 230%;
+    border-bottom: 1px solid #1993BF;
 }
