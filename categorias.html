@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/images/logo.png">
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <link rel='stylesheet' href='assets/styles/style.css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
+    <script defer src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <title>Componentes S.L.</title>
+</head>
+
+<body>
+    <header>
+        <div class="row fixed-top sticky-top" id="cabecera">
+            <div class="col-3 clearfix">
+                <div class="float-left col clearfix">
+                    <div class="float-left">
+                        <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="Componentes S.L."></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 col">
+            </div>
+            <div class="col col-8 ">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h1>Componentes S.L.</h1>
+                        <h5>Venta de Productos Informaticos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <nav class="navbar navbar-expand-lg d-none d-lg-inline d-xl-inline bg-transparent" id="menu_gral" >
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbar10">
+                    <ul class="navbar-nav nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="nav-link activo" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item" id="cat">
+                            <a class="nav-link" href="categorias.html">CATEGORIAS</a>
+                            <ul><!-- Segundo nivel desplegable -->
+                                <li ><a href="#">Componente1</a></li>
+                                <li><a href="#">Componente2</a></li>
+                                <li><a href="#">Componente3</a></li>
+                                <li><a href="#">Componente4</a></li>
+                               </ul>
+                        </li>
+                        <li class="nav-item" id="inicio">
+                            <a class="nav-link" href="login.html">INICIO SESION</a>
+                            <ul ><!-- Segundo nivel desplegable -->
+                                <li ><a href="#">Inicio Sesion</a></li>
+                                <li><a href="#">Registrate</a></li>
+
+                               </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-light lighten-4 d-block d-xl-none d-lg-none bg-transparent" >
+
+            <a class="navbar-brand" href="#">Menu</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
+          
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent41">
+
+              <!-- Links -->
+              <ul class="navbar-nav mr-auto nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link activo" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item" id="cat">
+                    <a class="nav-link" href="categorias.html">CATEGORIAS</a>
+                    <ul><!-- Segundo nivel desplegable -->
+                        <li ><a href="#">Componente1</a></li>
+                        <li><a href="#">Componente2</a></li>
+                        <li><a href="#">Componente3</a></li>
+                        <li><a href="#">Componente4</a></li>
+                       </ul>
+                </li>
+                <li class="nav-item" id="inicio">
+                    <a class="nav-link" href="login.html">INICIO SESION</a>
+                    <ul ><!-- Segundo nivel desplegable -->
+                        <li ><a href="#">Inicio Sesion</a></li>
+                        <li><a href="#">Registrate</a></li>
+
+                       </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+              <!-- Links -->
+          
+            </div>
+            <!-- Collapsible content -->
+          
+          </nav>
+
+    </header>
+
+    <main>
+
+        <!--Modificar a partir de aqui-->
+        <div class="row mt-2">
+            <div class="col col-12">
+                <div class="row mr-2">
+                    <div class="col-lg-6 col-lg-push-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="index.html"><img class="float-right img-fluid img-thumbnail w-50 h-auto" src="assets/images/categories/motherboard.png" alt="Placas Base"></a>
+                            </div>
+                            <div class="col-6 ">
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <h3><a href="motherboard.html">Placas Base</a></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <p>La placa base es el componente principal de un ordenador, por lo que comprar una placa base debe ser una decisión meditada.</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-pull-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="index.html"><img class="float-right img-fluid img-thumbnail w-50 h-auto" src="assets/images/categories/ram.png" alt="Memorias Ram"></a>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <h3><a href="ram.html">Memorias Ram</a></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <p>Se trata de la memoria que, en un equipo informático, es utilizada por un procesador para recibir instrucciones y guardar los resultados.</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mr-2">
+                    <div class="col-lg-6 col-lg-push-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="index.html"><img class="float-right img-fluid img-thumbnail w-50 h-auto" src="assets/images/categories/hdd.png" alt="Discos Duros"></a>
+                            </div>
+                            <div class="col-6 ">
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <h3><a href="hdd.html">Discos Duros</a></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <p>No dejes pasar la oportunidad de hacerte con un fantástico disco duro barato donde almacenar todas tus fotos y vídeos..</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-pull-6">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="index.html"><img class="float-right img-fluid img-thumbnail w-50 h-auto" src="assets/images/categories/grafic.png" alt="Tarjetas Gráficas"></a>
+                            </div>
+                            <div class="col-6">
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <h3><a href="grafic.html">Tarjetas Gráficas</a></h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col col-12">
+                                        <p>Las tarjetas gráficas son un componente indispensable para jugones y profesionales del diseño y la edición de imagen y vídeo.</p>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </main>
+
+    <!--Hasta aqui-->
+    <footer class="page-footer font-small blue mt-2 fixed-bottom sticky-bottom">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="Index.html"> ComponentesSL.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
