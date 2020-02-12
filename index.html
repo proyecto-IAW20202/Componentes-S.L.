@@ -8,10 +8,10 @@
     <link rel="shortcut icon" href="./assets/images/logo.png">
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
     <link rel='stylesheet' href='assets/styles/style.css'>
-
-    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
+    <script defer src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
+    <script defer src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
     <title>Componentes S.L.</title>
 </head>
 
@@ -38,7 +38,7 @@
         </div>
        
 
-        <nav class="navbar navbar-expand-lg" id="menu_gral" >
+        <nav class="navbar navbar-expand-lg d-none d-lg-inline d-xl-inline bg-transparent" id="menu_gral" >
             <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
                     <span class="navbar-toggler-icon"></span>
@@ -73,7 +73,50 @@
                 </div>
             </div>
         </nav>
-        
+
+        <nav class="navbar navbar-light lighten-4 d-block d-xl-none d-lg-none bg-transparent" >
+
+            <a class="navbar-brand" href="#">Menu</a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
+            aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
+          
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent41">
+
+              <!-- Links -->
+              <ul class="navbar-nav mr-auto nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link activo" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item" id="cat">
+                    <a class="nav-link" href="categorias.html">CATEGORIAS</a>
+                    <ul><!-- Segundo nivel desplegable -->
+                        <li ><a href="#">Componente1</a></li>
+                        <li><a href="#">Componente2</a></li>
+                        <li><a href="#">Componente3</a></li>
+                        <li><a href="#">Componente4</a></li>
+                       </ul>
+                </li>
+                <li class="nav-item" id="inicio">
+                    <a class="nav-link" href="login.html">INICIO SESION</a>
+                    <ul ><!-- Segundo nivel desplegable -->
+                        <li ><a href="#">Inicio Sesion</a></li>
+                        <li><a href="#">Registrate</a></li>
+
+                       </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+              <!-- Links -->
+          
+            </div>
+            <!-- Collapsible content -->
+          
+          </nav>
 
     </header>
 
