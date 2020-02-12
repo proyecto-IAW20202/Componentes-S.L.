@@ -101,3 +101,103 @@ h3:first-letter {
     line-height: 230%;
     border-bottom: 1px solid #1993BF;
 }
+
+/*Login HTML CSS*/
+.c2{
+    margin-top: 2%;
+}
+
+.g{
+    background: none
+}
+
+.card{
+    margin-top: 1.5%;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.6) !important;
+    margin-top: 0%;
+}
+
+.card h3{
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: lightblue;
+}
+
+.social_icon span a{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #D67F09;
+}
+
+.social_icon span a:hover{
+    color: #FC8D95;
+    cursor: pointer;
+}
+
+.social_icon{
+    position: absolute;
+    right: 10px;
+    top: -45px;
+    background: none;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #D67F09;
+    color: black;
+    border:0 !important;
+}
+
+.input-group-prepend, input-group form-group {
+    margin-top: 0%;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember{
+    color: #0045bf;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: #D67F09;
+    width: 100px;
+}
+
+/*
+.login_btn:hover{
+    color: black;
+    background-color: #DA7D83;
+}
+*/
+
+.links{
+    color: #0045bf;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+/*End Login HTML CSS*/
