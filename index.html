@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -12,6 +12,9 @@
     <script defer src='https://code.jquery.com/jquery-3.3.1.slim.min.js' integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo' crossorigin='anonymous'></script>
     <script defer src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
     <script defer src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
     <title>Componentes S.L.</title>
 </head>
 
@@ -36,7 +39,7 @@
                 </div>
             </div>
         </div>
-       
+
 
         <nav class="navbar navbar-expand-lg d-none d-lg-block d-xl-block bg-transparent" id="menu_gral" >
             <div class="container">
@@ -68,7 +71,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">CONTACTO</a>
                         </li>
-                      
+
                     </ul>
                 </div>
             </div>
@@ -81,7 +84,7 @@
             <button class="navbar-toggler toggler-example " type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent41" aria-controls="navbarSupportedContent41" aria-expanded="false"
             aria-label="Toggle navigation"><span class="white-text"><i class="fas fa-bars fa-1x"></i></span></button>
-          
+
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent41">
 
@@ -112,33 +115,115 @@
                 </li>
               </ul>
               <!-- Links -->
-          
+
             </div>
             <!-- Collapsible content -->
-          
+
           </nav>
 
     </header>
 
     <main>
-
         <!--Modificar a partir de aqui-->
-        <div class="row mt-2">
-            <div class="col">
-                <h2>Hola esto es un titulo </h2>
-                <p>esto es un texto dentro de un div</p>
-                <input type="button" value="esto es un boton"/>
+
+
+        <!------ Include the above in your HEAD tag ---------->
+        <div class="container">
+            <div class="row blog justify-content-center">
+                <h1>
+                    <div class="animated fadeInLeft ">Productos Destacados</div>
+                </h1>
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/placa1.jpg">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/placa2.jpg">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/disco1.jpg">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/disco2.jpg">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/grafic.png">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-12 col-sm-12">
+                                        <div class="our-team">
+                                            <div class="pic">
+                                                <img src="assets/images/categories/grafic.png">
+                                                <h3 class="title"><a href="#">Grafica PNG</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+
+                </div>
             </div>
         </div>
 
-
-        
     </main>
 
     <!--Hasta aqui-->
-    <footer class="page-footer font-small blue mt-2 fixed-bottom sticky-bottom">
+    <footer class="page-footer font-small blue pt-4 mt-5">
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <div class="container-fluid footer-copyright text-center py-3">© 2020 Copyright:
             <a href="Index.html"> ComponentesSL.com</a>
         </div>
         <!-- Copyright -->
